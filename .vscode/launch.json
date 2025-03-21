@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/machinelearning/autograder.py",
+            "console": "integratedTerminal",
+            "args": [
+                "-q", "q1"
+            ]
+        }
+    ]
+}
